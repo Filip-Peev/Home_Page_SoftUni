@@ -1,0 +1,44 @@
+body {
+  background-color: grey;
+}
+
+.image_box {
+  display: inline-block;
+  block-size: 140px;
+  box-shadow: 0 8px 16px 0 rgba(250, 2, 2, 0.897), 0 10px 18px 0 rgba(24, 248, 4, 0.918);
+}
+
+img {
+  width: 100%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: blue;
+}
+
+/* Fixed Menu To Top: */
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #111;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.GoogleSearchForm {
+  box-shadow: 0 8px 16px 0 rgba(250, 2, 2, 0.897), 0 10px 18px 0 rgba(24, 248, 4, 0.918);
+  display: inline-flex;
+}
