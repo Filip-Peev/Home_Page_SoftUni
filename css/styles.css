@@ -47,6 +47,12 @@ ul {
   display: inline-flex;
 }
 
+#search-input {
+  width: 250px;  /* Adjust the width as desired */
+  height: 30px;  /* Adjust the height as desired */
+  font-size: 21px;  /* Adjust the font size as desired */
+}
+
 .GoogleSearchForm:hover {
   box-shadow: 0 8px 16px 0 rgba(250, 2, 2, 0.966), 0 10px 18px 0 rgba(4, 8, 248, 0.918);
 }
