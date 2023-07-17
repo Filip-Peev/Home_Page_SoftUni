@@ -1,5 +1,7 @@
 body {
-  background-color: grey;
+  background-image: url("../images/BG_Tiles.jpg");
+  background-size: contain; /* to keep image as page size, good for bg picture */
+  background-repeat: repeat;
 }
 
 .image_box {
@@ -45,12 +47,6 @@ ul {
 .GoogleSearchForm {
   box-shadow: 0 8px 16px 0 rgba(250, 2, 2, 0.897), 0 10px 18px 0 rgba(24, 248, 4, 0.918);
   display: inline-flex;
-}
-
-#search-input {
-  width: 250px;  /* Adjust the width as desired */
-  height: 30px;  /* Adjust the height as desired */
-  font-size: 21px;  /* Adjust the font size as desired */
 }
 
 .GoogleSearchForm:hover {
